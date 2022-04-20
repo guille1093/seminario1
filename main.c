@@ -51,8 +51,8 @@ int main(void)
         printf("\n ingrese la patente: \n");
         scanf("%d",&ArrayAutos[i].patente);
         printf("\n ingrese la marca: \n");
-        scanf("%s", &ArrayAutos[i].marca);
-        printf("\ingrese el anio: \n");
+        scanf("%s",ArrayAutos[i].marca);
+        printf("\n ingrese el anio: \n");
         scanf("%d", &ArrayAutos[i].anio);
 
     }
